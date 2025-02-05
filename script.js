@@ -9,3 +9,11 @@ function getComputerChoice()
 }
 console.log(getComputerChoice())
 // console.log(getComputerChoice(3));
+// step 2 is adding logic for a human player
+function humanPlayer()
+{
+    const human  = prompt("show your arm: ");
+    return "you a " + human;
+
+}
+console.log(humanPlayer());
